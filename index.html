@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的布料公司</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; }
+    header { background-color:#333; color:white; padding:20px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; }
+    section { padding:50px 20px; }
+    .hero { background-color:#f5f5f5; text-align:center; }
+    .products, .services { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+    .card { border:1px solid #ccc; padding:20px; width:250px; text-align:center; }
+    .card img { width:100%; height:auto; }
+    footer { text-align:center; padding:20px; background-color:#333; color:white; }
+    @media(max-width:600px){ .products, .services { flex-direction:column; align-items:center; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>我的布料公司</h1>
+  <nav>
+    <a href="#home">首頁</a>
+    <a href="#about">關於我們</a>
+    <a href="#products">產品與服務</a>
+    <a href="#process">合作流程</a>
+    <a href="#contact">聯絡我們</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>專業布料供應與客製化服務</h2>
+  <p>我們提供各式布料及完整供應鏈服務，滿足客戶需求。</p>
+  <img src="hero-image.jpg" alt="公司業務示意圖" style="width:80%; max-width:600px;">
+</section>
+
+<section id="about">
+  <h2>關於我們</h2>
+  <p>我們是一家專注於高品質布料生產的公司，提供從紡織到成品布料的完整服務。多年來累積穩定合作夥伴，產品銷往多國市場。</p>
+</section>
+
+<section id="products">
+  <h2>產品與服務</h2>
+  <div class="products">
+    <div class="card">
+      <img src="fabric1.jpg" alt="布料種類1">
+      <h3>布料種類1</h3>
+      <p>提供多種顏色與材質選擇，適合服裝及家用布料。</p>
+    </div>
+    <div class="card">
+      <img src="fabric2.jpg" alt="布料種類2">
+      <h3>布料種類2</h3>
+      <p>專業技術處理，確保布料耐用與舒適。</p>
+    </div>
+    <div class="card">
+      <img src="service.jpg" alt="客製化服務">
+      <h3>客製化服務</h3>
+      <p>根據客戶需求提供特殊紋理與染色服務。</p>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <h2>合作流程</h2>
+  <ol>
+    <li>聯絡我們並說明需求</li>
+    <li>產品範例提供與討論</li>
+    <li>簽訂合作協議</li>
+    <li>量產與出貨</li>
+  </ol>
+  <p>我們以高效率、穩定品質，確保客戶滿意度。</p>
+</section>
+
+<section id="contact">
+  <h2>聯絡我們</h2>
+  <p>如有需求或詢價，請填寫下方表單或直接 Email 聯絡：</p>
+  <a href="https://forms.gle/你的GoogleForm連結" target="_blank">填寫詢價表單</a>
+  <p>Email: info@yourcompany.com</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 我的布料公司 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
